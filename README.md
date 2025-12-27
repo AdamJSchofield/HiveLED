@@ -23,6 +23,8 @@ Managing Heat:
 
 ## WLED Setup
 
+https://kno.wled.ge/
+
 ### LED Settings
 
 - LED Type: APA102 (similar timings to SK9822)
