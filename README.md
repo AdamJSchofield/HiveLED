@@ -30,8 +30,11 @@ https://kno.wled.ge/
 - LED Type: APA102 (similar timings to SK9822)
 - Clock Speed: Fastest
 - Num LEDs: 107
-- Clock Pin: 36
 - Data Pin: 35
+- Clock Pin: 36
+- Button 1 Pin: 47
+- Button 2 Pin: 33
+- Button 3 Pin: 34
 
 ### INA228 Usermod
 The HiveLED matrix contains an onboard INA228 IC for monitoring the temperature of the PCB and real-time power consumption. These features provide additional diagnostic information and can be used as an electronic fuse as a backup to the "soft" current limiter built into WLED. These features also enable automatic temperature control with a 5V PWM fan and optional heatsink. Accurate temperature monitoring and configurable emergency shutoff functions protect the (most likely 3D printed) enclosure, extend the life of the components, and reduce the risk of catastrophic failure.
@@ -42,8 +45,8 @@ I will submit a pull request to add the INA228 usermod to WLED soon. To build yo
 
 Config > Usermods
 
-- Global I2C SCL Pin: 14
 - Global I2C SDA Pin: 15
+- Global I2C SCL Pin: 14
 - INA228 Alert Pin: 16
 - Fan PWM Pin: 12
 - Fan Tach Pin: 13
